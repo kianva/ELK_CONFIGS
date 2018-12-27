@@ -3,7 +3,7 @@ Configuration introduction
 
 This is a configuration of Logstash plugin "logstash-input-jdbc" to fetch data from Mysql Database and migrating Mysql Database Data to Elasticsearch.So finnaly we could use kibana to visualize them.  
 
-Usage:
+Usage:  
     ```
     logstash -f mysql.conf
     ```
@@ -13,11 +13,11 @@ Usage:
     ```
     mysql.conf means exact this configuration.
 
-Here are steps:  
+**Here are steps:**  
 1.Have your ElasticSearch installed:  
-    -Windows/Linux Download:  
-        https://www.elastic.co/downloads/elasticsearch  
-    -Windows run:  
+    *Windows/Linux Download:  
+        >https://www.elastic.co/downloads/elasticsearch  
+    *Windows run:  
         Just unzip .zip and enter the "bin" directory and run elasticsearch.bat under Terminal window  
 2.Have your Logstash installed:  
     -Windows/Linux Download:  
