@@ -25,6 +25,8 @@ Here are steps:
         https://www.elastic.co/cn/downloads/logstash  
 + How to migrate mysql data to elastic :  
     *logstash.bat -f mysql.conf*
-
-### 3.Have your Kibana installed
+### 3.jdbc_driver_library (.jar) is needed:
++ Download:  
+    https://dev.mysql.com/downloads/connector/j/5.1.html
+### 4.Have your Kibana installed
     on this case,it's optional,because in here we only want to migrating data to elastic
